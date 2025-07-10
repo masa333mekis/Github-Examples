@@ -1,5 +1,4 @@
-name: multi events
-
+name: multi_events
 on:
   push:
     branches:
@@ -13,5 +12,6 @@ jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - name: "basic info"
-        run: echo "job id: $GITHUB_JOB"
+      - name: " Echo basic info"
+        run: 
+          echo "job id: $GITHUB_JOB"
