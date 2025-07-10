@@ -13,5 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: " Echo basic info"
-        run: 
-          echo "job id: $GITHUB_JOB"
+        run: echo "job id"
